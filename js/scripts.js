@@ -15,7 +15,7 @@ $(document).ready(function () {
 		slidesToScroll: 4,
 		dots: false,
 		arrows: true,
-		// autoplay: true,
+		autoplay: true,
 		autospeed: 2000,
 		responsive: [
 		{
@@ -58,13 +58,7 @@ $(document).ready(function () {
 			}
 		}
 		]
-	/*	autoplay: true,
-		autospeed: 2000
-	*/
 	});/* Slider */
-	 // $('.tb2').click(function(){
-  //   	$(".services-slider").slick('slickNext');
-  // 	});
 });
 
 $( window ).on('resize load', function() {
@@ -85,5 +79,4 @@ $( window ).on('resize load', function() {
 			});
 		}());
 	}
-
 });
